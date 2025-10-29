@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build",
+                "-j10"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the CMake project."
+        }
+    ],
+    "version": "2.0.0"
+}
