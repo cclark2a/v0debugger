@@ -30,6 +30,7 @@ include_directories(
 add_executable (v0debugger 
 	../pathopsv0/debugger/main.cpp 
 	../pathopsv0/debugger/DebuggerDraw.cpp    
+	../pathopsv0/debugger/DebuggerEvent.cpp
 	../pathopsv0/debugger/DebuggerPoly.cpp    
 	../pathopsv0/debugger/DebuggerState.cpp    
 	../pathopsv0/debugger/DebuggerTypes.cpp    
