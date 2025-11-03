@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "cmake",
+            "label": "debugger",
             "command": "cmake",
             "args": [
                 "--build",
@@ -16,7 +16,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Build the CMake project."
+            "detail": "cmake"
         }
     ],
     "version": "2.0.0"
