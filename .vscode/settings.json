@@ -1,5 +1,14 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}",
     "cmake.buildDirectory": "${workspaceFolder}/build",
-    "C_Cpp.default.includePath": ["${workspaceFolder}/../**"]
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/../SDL3_ttf-3.2.2/include",
+	    "${workspaceFolder}/../SDL3-3.2.24/include",
+	    "${workspaceFolder}/../pentrek_raster",
+	    "${workspaceFolder}/../pathopsv0/debugger",
+	    "${workspaceFolder}/../pathopsv0/debug",
+	    "${workspaceFolder}/../pathopsv0/public",
+	    "${workspaceFolder}/../pathopsv0/src",
+	    "${workspaceFolder}/../pathopsv0/tests"
+    ]
 }

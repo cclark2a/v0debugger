@@ -59,7 +59,8 @@
 			"stack": "cpp",
 			"streambuf": "cpp",
 			"unordered_map": "cpp",
-			"algorithm": "cpp"
+			"algorithm": "cpp",
+			"cstddef": "cpp"
 		},
 		"C_Cpp.default.includePath": [
 			"/Users/cary/SDL3_ttf-3.2.2/include",

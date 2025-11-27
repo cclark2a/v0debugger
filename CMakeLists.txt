@@ -29,6 +29,7 @@ include_directories(
 
 add_executable (v0debugger 
 	../pathopsv0/debugger/main.cpp 
+	../pathopsv0/debugger/CompareWindow.cpp    
 	../pathopsv0/debugger/DebuggerDraw.cpp    
 	../pathopsv0/debugger/DebuggerEvent.cpp
 	../pathopsv0/debugger/DebuggerPoly.cpp    
@@ -55,6 +56,7 @@ add_executable (v0debugger
     ../pathopsv0/engine/PathOps.cpp
 	../pathopsv0/debug/OpDebugColor.cpp
 	../pathopsv0/debug/OpDebugDump.cpp
+	../pathopsv0/debug/OpDebugRaster.cpp
 	../pathopsv0/debug/OpDebugTags.cpp
 )
 
@@ -65,7 +67,7 @@ target_link_libraries (v0debugger PRIVATE
 	/Users/cary/pentrek_raster/build/libpentrek_raster.a
 )
 
-target_compile_definitions (v0debugger PUBLIC OP_DEBUGGER NOMINMAX _CRT_SECURE_NO_WARNINGS)
+target_compile_definitions (v0debugger PUBLIC OP_DEBUGGER TEST_RASTER NOMINMAX _CRT_SECURE_NO_WARNINGS)
 
 if (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
     target_compile_options (v0debugger PUBLIC)

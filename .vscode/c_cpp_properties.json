@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "v0debugger",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [
+                "OP_DEBUGGER",
+                "TEST_RASTER",
+                "NOMINMAX",
+                "_CRT_SECURE_NO_WARNINGS"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
