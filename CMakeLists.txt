@@ -3,7 +3,7 @@
 cmake_minimum_required (VERSION 3.16)
 project (pov0debugger VERSION 0.1)
 
-set (CMAKE_CXX_STANDARD 17)
+set (CMAKE_CXX_STANDARD 20)
 set (CMAKE_CXX_STANDARD_REQUIRED ON)
 set (CMAKE_CXX_EXTENSIONS OFF)
 
@@ -36,6 +36,7 @@ add_executable (v0debugger
 	../pathopsv0/debugger/DebuggerState.cpp    
 	../pathopsv0/debugger/DebuggerTypes.cpp    
 	../pathopsv0/debugger/DebuggerWindow.cpp    
+	../pathopsv0/debugger/DumpWindow.cpp    
 	../pathopsv0/debugger/HelpWindow.cpp    
 	../pathopsv0/debugger/PictureWindow.cpp    
 	../pathopsv0/debugger/TextWindow.cpp    
@@ -57,6 +58,7 @@ add_executable (v0debugger
 	../pathopsv0/debug/OpDebugColor.cpp
 	../pathopsv0/debug/OpDebugDump.cpp
 	../pathopsv0/debug/OpDebugRaster.cpp
+    ../pathopsv0/debug/OpDebugSerializeOut.cpp
 	../pathopsv0/debug/OpDebugTags.cpp
 )
 
