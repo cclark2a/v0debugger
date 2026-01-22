@@ -58,7 +58,7 @@ add_executable (v0debugger
 	../pathopsv0/debug/OpDebugColor.cpp
 	../pathopsv0/debug/OpDebugDump.cpp
 	../pathopsv0/debug/OpDebugRaster.cpp
-    ../pathopsv0/debug/OpDebugSerializeOut.cpp
+    ../pathopsv0/debug/OpDebugSerialize.cpp
 	../pathopsv0/debug/OpDebugTags.cpp
 )
 
